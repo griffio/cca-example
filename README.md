@@ -9,6 +9,7 @@ cca is gradle sensitive
 
 the platforms/android/build.gradle may need to be updated
 
+~~~java
 if (gradle.gradleVersion >= "2.1") {
     dependencies {
         classpath 'com.android.tools.build:gradle:0.14.0+'
@@ -18,3 +19,5 @@ if (gradle.gradleVersion >= "2.1") {
         classpath 'com.android.tools.build:gradle:0.12.0+'
     }
 }
+~~~
+
